@@ -1,0 +1,10 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+#     ye as a registry khud register na ho as a client aur eureka service se na fetch kare data isliye dono ko false krdenge
+    register-with-eureka: false
+    fetch-registry: false
+
+server:
+  port: 8761
